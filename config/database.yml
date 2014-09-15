@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: coding_interview
+  host: localhost
+  pool: 5
+  timeout: 5000
+
+  adapter: postgresql
+  encoding: unicode
+  database: coding_interview_test
+  host: localhost
+  pool: 5
+  timeout: 5000
