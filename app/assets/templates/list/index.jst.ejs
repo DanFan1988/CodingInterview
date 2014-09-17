@@ -1,0 +1,9 @@
+<ul>
+  <% lists.each(function(list){ %>
+    <li><%= list.escape("title") %></li>
+ <% })%>
+</ul>
+
+<ul id="list-container"></ul>
+
+<a href="#" id="create-list">Create List</a>
