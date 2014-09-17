@@ -4,9 +4,6 @@ window.CI = {
   Views: {},
   Routers: {},
   initialize: function() {
-    new CI.Routers.Router({
-      $rootEl: $("#content")
-    })
-    Backbone.history.start();
+    alert("Welcome to the Nixle Coding Interiew. Good Luck!")
   }
 };
