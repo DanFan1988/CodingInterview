@@ -4,6 +4,7 @@ window.CI = {
   Views: {},
   Routers: {},
   initialize: function() {
-    alert("Welcome to the Nixle Coding Interiew. Good Luck!")
+    new CI.Routers.TodoList();
+    Backbone.history.start();
   }
 };

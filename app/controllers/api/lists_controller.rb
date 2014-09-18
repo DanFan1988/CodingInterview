@@ -15,6 +15,11 @@ class Api::ListsController < ApplicationController
       render :json => @list.errors.full_messages
     end
   end
+
+  def destroy
+    @list = List.find(params[:id])
+    @list.destroy!
+  end
   
   def list_params
     params.permit(:title)
